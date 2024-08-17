@@ -1,0 +1,236 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+.main-page {
+    width: 100%;
+    background: linear-gradient(90deg, #FCFEFE 0%, #A5DEFF 100%);
+}
+
+.main-page-text-container {
+    border-radius: 40px;
+    background: var(--white, #FFF);
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    position: relative;
+}
+
+.main-page-hello-text {
+    color: var(--Black, #1B1D1F);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 60px;
+
+}
+
+.main-page-title {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.main-page-des {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.main-page-btn {
+    display: inline-flex;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 8px;
+    background: var(--orange, #FF6B0A);
+    border: none;
+    color: var(--white, #FFF);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.goit-logo {
+    position: absolute;
+    top: 32px;
+    left: 0;
+}
+
+section.facts {
+    padding: 48px 0 100px;
+    text-align: center;
+}
+
+section.facts>h2 {
+    color: var(--Black, #1B1D1F);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    margin-bottom: 32px;
+    margin-top: 0;
+}
+
+.facts-tryzub {
+    margin-bottom: 24px;
+}
+
+.facts-desc {
+    color: var(--Black, #1B1D1F);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 772px;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.facts-item {
+    width: calc((100% / 3) - (24px * 2) / 3);
+}
+
+.facts-item>h3 {
+    color: var(--Black, #1B1D1F);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 32px;
+    margin-top: 0;
+}
+
+.facts-item>p {
+    color: var(--Black, #1B1D1F);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0;
+    margin-bottom: 0;
+}
+
+.form-container {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #FCFEFE 0%, #A5DEFF 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form.form {
+    border-radius: 40px;
+    background: var(--white, #FFF);
+    padding: 32px 60px 60px 60px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+img.form {
+    margin-bottom: 32px;
+}
+
+h4.form {
+    color: var(--Black, #1B1D1F);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 12px;
+
+}
+
+p.form {
+    color: var(--Black, #1B1D1F);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-field-label {
+    color: var(--Black, #1B1D1F);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.form-field-name {
+    margin-bottom: 24px;
+}
+
+.form-input {
+    border-radius: 8px;
+    border: 1px solid #005BBB;
+    background: var(--white, #FFF);
+    color: var(--Black, #1B1D1F);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 12px 24px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.form-btn {
+    color: var(--white, #FFF);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background: var(--orange, #FF6B0A);
+    border: none;
+}
+
+.form-field-email {
+    margin-bottom: 48px;
+}
+
+.gus-anim {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
